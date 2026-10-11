@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>作品展示 · 宣传报道部 · 湖南科技大学建筑与设计学院</title>
+<meta name="description" content="湖南科技大学建筑与设计学院宣传报道部作品展示：文字报道、图集摄影、视频短片与视觉设计。">
+<meta name="theme-color" content="#0a3b6f">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+(function () {
+  try {
+    var t = localStorage.getItem("hnust-xb-theme");
+    if (!t) {
+      t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+    document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<!-- 【演示版提示条】正式上线前删除本段 -->
+<div class="demo-banner">
+  <div class="container">
+    <strong>演示版本</strong>
+    <span>下列作品标题、分类与配图均为示例占位，不含任何真实获奖或发表信息；请替换为部门真实作品。</span>
+  </div>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="宣传报道部首页">
+      <img class="brand-mark" src="assets/img/logo.svg" alt="" width="42" height="42">
+      <span class="brand-text">
+        <strong>湖南科技大学</strong>
+        <small>建筑与设计学院 · 宣传报道部</small>
+      </span>
+    </a>
+    <nav class="nav" id="primaryNav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="about.html">部门概况</a>
+      <a class="nav-link" href="news.html">宣传动态</a>
+      <a class="nav-link" href="works.html">作品展示</a>
+      <a class="nav-link" href="join.html">加入我们</a>
+      <a class="nav-link" href="contact.html">联系我们</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="切换到深色主题" title="切换主题">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="打开导航菜单" aria-expanded="false" aria-controls="primaryNav">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="面包屑">
+        <a href="index.html">首页</a>
+        <span class="sep">/</span>
+        <span>作品展示</span>
+      </nav>
+      <h1>作品展示</h1>
+      <p class="lead">文字、影像与设计，是部门工作的三种主要产出。本页以分类方式汇总部门作品，点击分类即可筛选。</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="notice reveal" style="margin-bottom:32px">
+        <svg class="notice__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+        <p>配图均为本站自动生成的抽象图形，用于演示版式。请替换为部门拥有版权的真实作品图，并确认已获得作者与出镜人同意。</p>
+      </div>
+
+      <div class="filter-bar reveal" role="group" aria-label="作品分类筛选">
+        <button class="filter-btn is-active" type="button" data-filter="all" aria-pressed="true">全部作品</button>
+        <button class="filter-btn" type="button" data-filter="text" aria-pressed="false">文字报道</button>
+        <button class="filter-btn" type="button" data-filter="photo" aria-pressed="false">摄影图集</button>
+        <button class="filter-btn" type="button" data-filter="video" aria-pressed="false">视频短片</button>
+        <button class="filter-btn" type="button" data-filter="design" aria-pressed="false">视觉设计</button>
+      </div>
+
+      <div class="work-grid">
+
+        <article class="work-card reveal" data-category="text">
+          <div class="work-card__media">
+            <span class="work-card__cat">文字报道</span>
+            <img src="assets/img/cover-work-1.svg" alt="示例作品配图" width="800" height="600" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3>学院教学成果专题报道</h3>
+            <p>以系列通讯形式呈现学院阶段性教学与实践成果，兼顾专业性与可读性。</p>
+            <div class="work-card__foot"><span>示例作品</span><span>文字 · 约 3000 字</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" data-delay="60" data-category="photo">
+          <div class="work-card__media">
+            <span class="work-card__cat">摄影图集</span>
+            <img src="assets/img/cover-work-2.svg" alt="示例作品配图" width="800" height="600" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3>毕业设计展现场图集</h3>
+            <p>记录展览现场的空间、作品与观众互动，按展区顺序编排为可浏览的图集。</p>
+            <div class="work-card__foot"><span>示例作品</span><span>摄影 · 40 图</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" data-delay="120" data-category="video">
+          <div class="work-card__media">
+            <span class="work-card__cat">视频短片</span>
+            <img src="assets/img/cover-work-3.svg" alt="示例作品配图" width="800" height="600" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3>一分钟看学院</h3>
+            <p>用快节奏剪辑呈现学院一日的空间与人物，适合在短视频平台分发。</p>
+            <div class="work-card__foot"><span>示例作品</span><span>视频 · 60 秒</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" data-category="design">
+          <div class="work-card__media">
+            <span class="work-card__cat">视觉设计</span>
+            <img src="assets/img/cover-work-4.svg" alt="示例作品配图" width="800" height="600" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3>学院活动主视觉海报</h3>
+            <p>围绕活动主题建立视觉基调，输出主海报与延展物料，保证线上线下一致。</p>
+            <div class="work-card__foot"><span>示例作品</span><span>设计 · 系列 6 张</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" data-delay="60" data-category="text">
+          <div class="work-card__media">
+            <span class="work-card__cat">文字报道</span>
+            <img src="assets/img/cover-work-5.svg" alt="示例作品配图" width="800" height="600" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3>师生人物专访《设计者说》</h3>
+            <p>通过深度访谈呈现创作者的方法与思考，让作品背后的人被看见。</p>
+            <div class="work-card__foot"><span>示例作品</span><span>文字 · 访谈体</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" data-delay="120" data-category="photo">
+          <div class="work-card__media">
+            <span class="work-card__cat">摄影图集</span>
+            <img src="assets/img/cover-work-6.svg" alt="示例作品配图" width="800" height="600" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3>校园建筑光影记录</h3>
+            <p>以建筑摄影的视角记录学院空间的材质、结构与光影变化。</p>
+            <div class="work-card__foot"><span>示例作品</span><span>摄影 · 25 图</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" data-delay="180" data-category="video">
+          <div class="work-card__media">
+            <span class="work-card__cat">视频短片</span>
+            <img src="assets/img/cover-work-7.svg" alt="示例作品配图" width="800" height="600" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3>活动回顾短片</h3>
+            <p>对活动流程做结构化剪辑，保留关键节点与现场情绪，作为总结材料留档。</p>
+            <div class="work-card__foot"><span>示例作品</span><span>视频 · 3 分钟</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" data-delay="240" data-category="design">
+          <div class="work-card__media">
+            <span class="work-card__cat">视觉设计</span>
+            <img src="assets/img/cover-work-8.svg" alt="示例作品配图" width="800" height="600" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3>推文封面模板体系</h3>
+            <p>建立可复用的封面模板与配色规则，降低日常排版成本并统一品牌观感。</p>
+            <div class="work-card__foot"><span>示例作品</span><span>设计 · 模板 8 套</span></div>
+          </div>
+        </article>
+
+        <article class="work-card reveal" data-delay="300" data-category="design">
+          <div class="work-card__media">
+            <span class="work-card__cat">视觉设计</span>
+            <img src="assets/img/cover-work-9.svg" alt="示例作品配图" width="800" height="600" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3>学院宣传册版面设计</h3>
+            <p>以网格系统组织图文信息，兼顾纸质印刷与屏幕阅读两种使用场景。</p>
+            <div class="work-card__foot"><span>示例作品</span><span>设计 · 16 页</span></div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="notice" style="margin-top:36px">
+        <svg class="notice__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+        <p>如需为作品添加独立详情页或外链（例如公众号文章、视频平台链接），可在每张卡片内加入链接，具体做法见仓库 README 的"扩展指引"。</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div>
+          <h2>你的作品，也值得被认真呈现</h2>
+          <p>加入宣传报道部，你产出的每一条内容都会被署名、被留存。</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn--accent" href="join.html">加入我们</a>
+          <a class="btn btn--light" href="about.html">了解部门</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/img/logo.svg" alt="" width="44" height="44">
+          <span>
+            <strong>宣传报道部</strong>
+            <small>湖南科技大学 · 建筑与设计学院</small>
+          </span>
+        </div>
+        <p>以笔为尺，丈量校园；以镜为窗，记录时代。</p>
+      </div>
+      <div>
+        <h3>快速导航</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="about.html">部门概况</a></li>
+          <li><a href="news.html">宣传动态</a></li>
+          <li><a href="works.html">作品展示</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>参与我们</h3>
+        <ul class="footer-links">
+          <li><a href="join.html">招新信息</a></li>
+          <li><a href="join.html#positions">岗位需求</a></li>
+          <li><a href="join.html#flow">报名流程</a></li>
+          <li><a href="contact.html">投稿与合作</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>联系我们</h3>
+        <ul class="footer-contact">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            <span>投稿邮箱：xuanbaobu@example.com（示例）</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 4.2 2 2 0 0 1 3.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L7.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2Z"/></svg>
+            <span>联系电话：0731-8888XXXX（示例）</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>办公地点：学院办公楼 XXX 室（示例）</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-year>2025</span> 湖南科技大学建筑与设计学院宣传报道部</p>
+      <p>本站为部门宣传站点 · 内容示例版本，待替换</p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="返回页面顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="宣传报道部标识（占位图形）">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f4c8a"/>
+      <stop offset="55%" stop-color="#1462ad"/>
+      <stop offset="100%" stop-color="#062a52"/>
+    </linearGradient>
+    <linearGradient id="la" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c8102e"/>
+      <stop offset="100%" stop-color="#e01f3d"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="18" fill="url(#lg)"/>
+  <circle cx="27" cy="27" r="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.92" stroke-width="3.4"/>
+  <circle cx="27" cy="27" r="5.6" fill="#ffffff" fill-opacity="0.95"/>
+  <circle cx="27" cy="27" r="2.2" fill="#0a3b6f"/>
+  <path d="M40 44 L53 24 L57.5 27 L44.5 47 Z" fill="url(#la)"/>
+  <path d="M40.6 44.9 L44.4 46.9 L38.6 48.9 Z" fill="#ffffff" fill-opacity="0.9"/>
+  <path d="M14 47.5 h17" stroke="#ffffff" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+</svg>

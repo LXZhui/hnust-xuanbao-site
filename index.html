@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>宣传报道部 · 湖南科技大学建筑与设计学院</title>
+<meta name="description" content="湖南科技大学建筑与设计学院宣传报道部官方宣传站点：部门概况、宣传动态、作品展示与招新信息。以笔为尺，丈量校园；以镜为窗，记录时代。">
+<meta name="theme-color" content="#0a3b6f">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+/* 避免主题闪烁：在首次绘制前应用已保存的主题 */
+(function () {
+  try {
+    var t = localStorage.getItem("hnust-xb-theme");
+    if (!t) {
+      t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+    document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {}
+})();
+</script>
+<!-- 社交分享（og:image 建议替换为本站绝对地址，见 README 待办） -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="湖南科技大学建筑与设计学院宣传报道部">
+<meta property="og:title" content="宣传报道部 · 湖南科技大学建筑与设计学院">
+<meta property="og:description" content="以笔为尺，丈量校园；以镜为窗，记录时代。">
+<meta property="og:image" content="assets/img/og-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<!-- 【演示版提示条】正式上线前删除本段（各页面 body 开头同一段） -->
+<div class="demo-banner">
+  <div class="container">
+    <strong>演示版本</strong>
+    <span>除部门名称外，其余数据、栏目、联系方式均为示例占位内容，正式上线前请按仓库根目录的《待替换清单》逐项替换。</span>
+  </div>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="宣传报道部首页">
+      <img class="brand-mark" src="assets/img/logo.svg" alt="" width="42" height="42">
+      <span class="brand-text">
+        <strong>湖南科技大学</strong>
+        <small>建筑与设计学院 · 宣传报道部</small>
+      </span>
+    </a>
+    <nav class="nav" id="primaryNav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="about.html">部门概况</a>
+      <a class="nav-link" href="news.html">宣传动态</a>
+      <a class="nav-link" href="works.html">作品展示</a>
+      <a class="nav-link" href="join.html">加入我们</a>
+      <a class="nav-link" href="contact.html">联系我们</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="切换到深色主题" title="切换主题">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="打开导航菜单" aria-expanded="false" aria-controls="primaryNav">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ Hero ============ -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="hero-badge"><span class="dot"></span>湖南科技大学 · 建筑与设计学院</span>
+        <h1>我们是，<br><span class="grad">宣传报道部</span></h1>
+        <p class="hero-tagline">
+          以笔为尺，丈量校园；以镜为窗，记录时代。<br>
+          我们记录学院的每一次落笔与落成，也让每一份设计理想被更多人看见。
+        </p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="about.html">
+            了解部门
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--light" href="join.html">加入我们</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="num" data-count="260">260<span class="unit">+</span></span>
+            <span class="label">年均发布稿件</span>
+          </div>
+          <div class="hero-stat">
+            <span class="num" data-count="5000">5000<span class="unit">+</span></span>
+            <span class="label">年均影像素材</span>
+          </div>
+          <div class="hero-stat">
+            <span class="num" data-count="5">5<span class="unit">个</span></span>
+            <span class="label">运营平台矩阵</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-card reveal">
+        <h3>部门名片</h3>
+        <ul class="pill-list">
+          <li>新闻采编</li>
+          <li>摄影摄像</li>
+          <li>新媒体运营</li>
+          <li>视觉设计</li>
+          <li>视频剪辑</li>
+          <li>活动策划</li>
+        </ul>
+        <p class="mini-note">
+          我们隶属于湖南科技大学建筑与设计学院，是学院对外宣传与对内凝聚的桥梁。
+          本页数据与栏目名称均为示例，正式发布前将以学院审定信息为准。
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ 部门简介 ============ -->
+  <section class="section">
+    <div class="container split split--media-right">
+      <div class="reveal">
+        <span class="eyebrow">About Us</span>
+        <h2>做学院故事的记录者，也做学院声音的传递者</h2>
+        <p class="lead">
+          宣传报道部是建筑与设计学院开展宣传思想文化工作的学生骨干队伍。
+          我们用文字、图片与影像，记录教学科研的进展、师生校友的身影、校园文化的温度，
+          并把这些内容整理成可阅读、可传播、可留存的作品。
+        </p>
+        <ul class="feature-list">
+          <li><strong>一手记录</strong>：活动现场跟拍、人物专访、深度报道，第一时间抵达新闻现场。</li>
+          <li><strong>多平台分发</strong>：学院官网、微信公众号、视频号等渠道协同发布。</li>
+          <li><strong>作品化沉淀</strong>：把零散素材整理为专题、图集与短片，形成部门年度作品库。</li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn--ghost" href="about.html">查看部门概况</a>
+          <a class="btn btn--ghost" href="works.html">浏览作品展示</a>
+        </div>
+      </div>
+      <figure class="split__media reveal" style="margin:0">
+        <img src="assets/img/cover-work-4.svg" alt="部门工作场景示意图" width="800" height="600">
+        <figcaption class="figure-caption">示意图：上线前请替换为部门真实工作照</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ 核心职能 ============ -->
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <span class="eyebrow">What We Do</span>
+        <h2>四项核心职能</h2>
+        <p class="lead">从线索发现到作品发布，部门内部按职能分工协作，覆盖宣传工作的完整链条。</p>
+      </div>
+
+      <div class="grid grid--4">
+        <article class="card card--accent reveal" data-delay="0">
+          <span class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+          </span>
+          <h3>新闻采编</h3>
+          <p>选题策划、现场采访、稿件撰写与编辑校审，产出消息、通讯、评论与人物专访。</p>
+          <div class="card__meta">输出：新闻稿 / 专访 / 专题报道</div>
+        </article>
+
+        <article class="card card--accent reveal" data-delay="80">
+          <span class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2Z"/><circle cx="12" cy="13" r="4"/></svg>
+          </span>
+          <h3>摄影摄像</h3>
+          <p>会议、展览、竞赛、毕业季等活动的图片与视频采集，负责素材归档与初步筛选。</p>
+          <div class="card__meta">输出：图集 / 花絮 / 活动录像</div>
+        </article>
+
+        <article class="card card--accent reveal" data-delay="160">
+          <span class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>
+          </span>
+          <h3>新媒体运营</h3>
+          <p>负责公众号等平台的选题排期、图文排版、推送发布与后台数据复盘。</p>
+          <div class="card__meta">输出：推文 / 话题 / 运营周报</div>
+        </article>
+
+        <article class="card card--accent reveal" data-delay="240">
+          <span class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg>
+          </span>
+          <h3>视觉设计</h3>
+          <p>海报、展板、长图与封面设计，建立并维护部门与学院宣传品的视觉一致性。</p>
+          <div class="card__meta">输出：海报 / 展板 / 视觉规范</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 品牌栏目 ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Columns</span>
+        <h2>品牌栏目</h2>
+        <p class="lead">以下栏目名称与定位均为示例，用于展示结构；正式上线时请替换为部门实际运营的栏目。</p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card card--numbered reveal" data-delay="0">
+          <div class="card__num">01</div>
+          <h3>《建院视界》</h3>
+          <p>聚焦学院教学、科研与设计实践的综合报道栏目，用图文呈现一个阶段内的重要进展与成果。</p>
+          <div class="card__meta">更新频率：每两周一期（示例）</div>
+        </article>
+
+        <article class="card card--numbered reveal" data-delay="80">
+          <div class="card__num">02</div>
+          <h3>《设计者说》</h3>
+          <p>师生人物专访栏目，记录创作者的想法、方法与成长路径，让作品背后的人被看见。</p>
+          <div class="card__meta">更新频率：每月一期（示例）</div>
+        </article>
+
+        <article class="card card--numbered reveal" data-delay="160">
+          <div class="card__num">03</div>
+          <h3>《一分钟建院》</h3>
+          <p>短视频栏目，用一分钟的镜头语言记录校园日常、活动高光与设计现场。</p>
+          <div class="card__meta">更新频率：随活动发布（示例）</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 宣传矩阵 ============ -->
+  <section class="section section--soft section--tight">
+    <div class="container">
+      <div class="split">
+        <div class="reveal">
+          <span class="eyebrow">Platforms</span>
+          <h2>宣传矩阵</h2>
+          <p class="lead">
+            部门实行"一次采集、多元生成、多端发布"的工作方式：
+            同一场活动产出的文字、图片与视频，会被改写为适配不同平台的内容形态。
+          </p>
+          <div class="tag-row">
+            <span class="tag"><span class="tag__dot"></span>学院官方网站</span>
+            <span class="tag"><span class="tag__dot tag__dot--accent"></span>微信公众号</span>
+            <span class="tag"><span class="tag__dot tag__dot--teal"></span>视频号 / 短视频平台</span>
+            <span class="tag"><span class="tag__dot tag__dot--gold"></span>校园媒体协作投稿</span>
+            <span class="tag"><span class="tag__dot"></span>院内展板与宣传栏</span>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="stat-band">
+            <div class="stat-cell"><span class="num" data-count="260">260</span><span class="label">年均稿件</span></div>
+            <div class="stat-cell"><span class="num" data-count="45">45</span><span class="label">年均活动覆盖</span></div>
+            <div class="stat-cell"><span class="num" data-count="30">30</span><span class="label">在岗成员</span></div>
+            <div class="stat-cell"><span class="num" data-count="5">5</span><span class="label">发布渠道</span></div>
+          </div>
+          <p class="figure-caption">＊以上数据均为示例占位，请替换为部门真实统计口径。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 近期动态 ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">News</span>
+        <h2>近期宣传动态</h2>
+        <p class="lead">示例条目，用于展示列表版式；正式内容请由部门成员在发布前替换。</p>
+      </div>
+
+      <div class="news-list">
+        <article class="news-item reveal">
+          <div class="news-item__thumb">
+            <img src="assets/img/cover-news-1.svg" alt="示例配图" width="800" height="500" loading="lazy">
+          </div>
+          <div class="news-item__body">
+            <div class="news-item__meta">
+              <span class="chip">部门动态</span>
+              <span>示例日期</span>
+              <span>阅读约 2 分钟</span>
+            </div>
+            <h3>部门完成新学期宣传选题会，明确阶段报道重点</h3>
+            <p>围绕学院阶段性重点工作，部门梳理了本学期的报道线索与排期，并就采访分工、素材归档规范进行了讨论。</p>
+          </div>
+        </article>
+
+        <article class="news-item reveal" data-delay="80">
+          <div class="news-item__thumb">
+            <img src="assets/img/cover-news-2.svg" alt="示例配图" width="800" height="500" loading="lazy">
+          </div>
+          <div class="news-item__body">
+            <div class="news-item__meta">
+              <span class="chip chip--accent">作品上新</span>
+              <span>示例日期</span>
+              <span>阅读约 3 分钟</span>
+            </div>
+            <h3>学生设计作品专题上线，图集与短视频同步发布</h3>
+            <p>本期专题以图文与短视频两种形态呈现学生设计实践成果，探索同一素材的多平台内容改写路径。</p>
+          </div>
+        </article>
+
+        <article class="news-item reveal" data-delay="160">
+          <div class="news-item__thumb">
+            <img src="assets/img/cover-news-3.svg" alt="示例配图" width="800" height="500" loading="lazy">
+          </div>
+          <div class="news-item__body">
+            <div class="news-item__meta">
+              <span class="chip">培训纪实</span>
+              <span>示例日期</span>
+              <span>阅读约 2 分钟</span>
+            </div>
+            <h3>新闻写作与摄影基础培训举行，新成员完成首次实战</h3>
+            <p>培训覆盖消息写作结构、采访提问技巧与活动摄影基础，新成员在模拟选题中完成了首次成稿练习。</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="btn-row" style="margin-top:32px">
+        <a class="btn btn--ghost" href="news.html">查看全部动态</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 招新 CTA ============ -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div>
+          <h2>想一起记录学院的下一个高光时刻吗？</h2>
+          <p>无论你擅长写字、拍片、排版还是设计，这里都有一台属于你的相机、一个署名的位置。</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn--accent" href="join.html">查看招新信息</a>
+          <a class="btn btn--light" href="contact.html">联系我们</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/img/logo.svg" alt="" width="44" height="44">
+          <span>
+            <strong>宣传报道部</strong>
+            <small>湖南科技大学 · 建筑与设计学院</small>
+          </span>
+        </div>
+        <p>以笔为尺，丈量校园；以镜为窗，记录时代。</p>
+      </div>
+
+      <div>
+        <h3>快速导航</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="about.html">部门概况</a></li>
+          <li><a href="news.html">宣传动态</a></li>
+          <li><a href="works.html">作品展示</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>参与我们</h3>
+        <ul class="footer-links">
+          <li><a href="join.html">招新信息</a></li>
+          <li><a href="join.html#positions">岗位需求</a></li>
+          <li><a href="join.html#flow">报名流程</a></li>
+          <li><a href="contact.html">投稿与合作</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>联系我们</h3>
+        <ul class="footer-contact">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            <span>投稿邮箱：xuanbaobu@example.com（示例）</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 4.2 2 2 0 0 1 3.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L7.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2Z"/></svg>
+            <span>联系电话：0731-8888XXXX（示例）</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>办公地点：学院办公楼 XXX 室（示例）</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span data-year>2025</span> 湖南科技大学建筑与设计学院宣传报道部</p>
+      <p>本站为部门宣传站点 · 内容示例版本，待替换</p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="返回页面顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
